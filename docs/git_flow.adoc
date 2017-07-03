@@ -1,0 +1,52 @@
+= Git Workflow for todo explore
+
+== Git checkout a new branch
+
+[source,shell]
+git checkout -b <new_feature>
+
+== Push Commits
+
+[source,shell]
+git add .
+git status
+git commit --verbose
+
+== Git comments: format
+
+[source,text]
+Present-tense summary under 50 characters
+
+* More information about commit (under 72 characters).
+* More information about commit (under 72 characters).
+
+http://project.management-system.com/ticket/123
+
+== Git sync with master
+
+[source,shell]
+git fetch origin
+git rebase origin/master
+
+== Git Merge Commits
+
+[source,shell]
+git rebase -i origin/master
+
+pick：正常选中
+reword：选中，并且修改提交信息；
+edit：选中，rebase时会暂停，允许你修改这个commit（参考这里）
+squash：选中，会将当前commit与上一个commit合并
+fixup：与squash相同，但不会保存当前commit的提交信息
+exec：执行其他shell命令
+
+== push to remote
+
+[source,shell]
+ git push --force origin new_feature
+
+ == pull request
+
+ Add pull request
+
+ [reference](http://www.ruanyifeng.com/blog/2015/08/git-use-process.html)
