@@ -1,0 +1,11 @@
+= Sprintboot Test
+
+- [] Primary Mock
+- [] Profile Setting
+- [] Mock Bean
+
+== Primary Mock
+
+== Mock Bean
+
+== Profile Setting

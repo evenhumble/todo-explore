@@ -20,7 +20,10 @@ public class ToDoBuilder {
         todo.setCompleted(completed);
         return this;
     }
-
+    public ToDoBuilder id(final long id){
+        this.todo.setId(id);
+        return this;
+    }
     public ToDoBuilder title(final String title){
         todo.setTitle(title);
         return this;
