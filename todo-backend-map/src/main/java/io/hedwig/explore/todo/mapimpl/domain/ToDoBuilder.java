@@ -1,7 +1,7 @@
 package io.hedwig.explore.todo.mapimpl.domain;
 
 import io.hedwig.explore.todo.entities.ToDo;
-import io.hedwig.explore.todo.mapimpl.domain.service.ToDoIDGenerator;
+import io.hedwig.explore.todo.mapimpl.service.ToDoIDGenerator;
 
 /**
  * Created by patrick on 2017/7/3.
