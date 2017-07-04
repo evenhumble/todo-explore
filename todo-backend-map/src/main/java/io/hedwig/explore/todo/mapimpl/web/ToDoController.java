@@ -1,4 +1,4 @@
-package io.hedwig.explore.todo.mapimpl.controller;
+package io.hedwig.explore.todo.mapimpl.web;
 
 import io.hedwig.explore.todo.entities.ToDo;
 import io.hedwig.explore.todo.service.ToDoService;

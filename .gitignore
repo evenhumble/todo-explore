@@ -760,3 +760,4 @@ ENV/
 
 # Rope project settings
 .ropeproject
+!/docs/scripts/

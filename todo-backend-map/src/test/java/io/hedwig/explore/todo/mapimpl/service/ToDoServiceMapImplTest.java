@@ -1,7 +1,8 @@
-package io.hedwig.explore.todo.mapimpl.domain.service;
+package io.hedwig.explore.todo.mapimpl.service;
 
 import io.hedwig.explore.todo.entities.ToDo;
 import io.hedwig.explore.todo.mapimpl.domain.ToDoBuilder;
+import io.hedwig.explore.todo.mapimpl.service.ToDoServiceMapImpl;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 

@@ -1,4 +1,4 @@
-package io.hedwig.explore.todo.mapimpl.domain.service;
+package io.hedwig.explore.todo.mapimpl.service;
 
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Maps;
