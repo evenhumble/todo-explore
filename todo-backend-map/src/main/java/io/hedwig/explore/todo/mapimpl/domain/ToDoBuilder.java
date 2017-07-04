@@ -1,7 +1,7 @@
 package io.hedwig.explore.todo.mapimpl.domain;
 
 import io.hedwig.explore.todo.entities.ToDo;
-import io.hedwig.explore.todo.mapimpl.domain.service.ToDoIDGenerator;
+import io.hedwig.explore.todo.mapimpl.service.ToDoIDGenerator;
 
 /**
  * Created by patrick on 2017/7/3.
@@ -20,7 +20,10 @@ public class ToDoBuilder {
         todo.setCompleted(completed);
         return this;
     }
-
+    public ToDoBuilder id(final long id){
+        this.todo.setId(id);
+        return this;
+    }
     public ToDoBuilder title(final String title){
         todo.setTitle(title);
         return this;

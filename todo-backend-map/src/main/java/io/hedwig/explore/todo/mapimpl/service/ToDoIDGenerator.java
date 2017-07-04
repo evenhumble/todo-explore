@@ -1,4 +1,4 @@
-package io.hedwig.explore.todo.mapimpl.domain.service;
+package io.hedwig.explore.todo.mapimpl.service;
 
 import java.util.concurrent.atomic.AtomicLong;
 
