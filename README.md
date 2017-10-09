@@ -4,5 +4,11 @@
 
 # README
 
-- [] ToDo MVC backend - Map implementation
-- [] ToDo MVC backend - redis implementation
+- [X] ToDo MVC backend - Map implementation
+- [X] ToDo MVC backend - Mock Service
+- [] ToDo MVC Backend - in memory database implementation
+- [] ToDo MVC Backend - mysql database implementation
+- [] ToDo MVC Backend - postgresql database implementation
+- [] ToDo MVC Backend - redis database implementation
+- [] ToDo MVC Backend - ignite database implementation
+ 
