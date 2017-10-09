@@ -11,7 +11,8 @@
     <modules>
         <module>todo-entities</module>
         <module>todo-service</module>
-        <module>todo-backend-map</module>
+        <!--<module>todo-backend-map</module>-->
+        <module>todo-mockservice</module>
     </modules>
 
 

@@ -1,0 +1,4 @@
+= Jacoco Usage
+
+[source,shell]
+mvn help:describe -Dplugin=org.jacoco:jacoco-maven-plugin -Ddetail

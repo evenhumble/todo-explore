@@ -12,7 +12,7 @@
     <artifactId>todo-backend-map</artifactId>
     <packaging>jar</packaging>
     <properties>
-        <springboot.version>1.5.3.RELEASE</springboot.version>
+        <springboot.version>1.5.7.RELEASE</springboot.version>
     </properties>
     <dependencies>
         <dependency>
